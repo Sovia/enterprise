@@ -2802,7 +2802,7 @@ Tabs.prototype = {
 
   /**
    * returns the currently active tab
-   * @returns {jQuery} the currently active tab
+   * @returns {jQuery} the currently active tab anchor
    */
   getActiveTab() {
     const visible = this.panels.filter(':visible');
